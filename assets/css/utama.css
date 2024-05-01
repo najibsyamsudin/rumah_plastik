@@ -1,0 +1,103 @@
+/* CSS untuk header */
+@media only screen and (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #558bd1;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.header-left img{
+    width : 120px;
+}
+
+header h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header a {
+    text-align: center;
+    width: 75px;
+    height: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color:rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease;
+  }
+
+  a:hover {
+    background-color: #1a6099;
+}
+
+header a:hover {
+    color: #ccc;
+}
+
+/* CSS untuk search container */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    }
+
+    form input[type="search"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    outline: none;
+    box-sizing: border-box;
+    }
+
+    form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4654e1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+    form button[type="submit"]:hover {
+    background-color: #3a429a;
+    }
+
+/* CSS untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead tr th{
+    text-align: center;
+    background-color: #f2f2f2; padding: 10px; border: 1px solid #ddd;
+}
+table tbody tr td{
+    text-align: center;
+    padding: 10px; border: 1px solid #ddd;
+}
+
+
